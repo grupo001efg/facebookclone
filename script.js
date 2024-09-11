@@ -1,13 +1,12 @@
-function validateForm(){
-     
-    var email = document.getElementByld("email").value;
-    var password = document.getElementByld("password").value;
+function validateForm() {
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
 
-
-    if(email === "" || password === "") {
+    if (email === "" || password === "") {
         alert("Por favor, preencha todos os campos.");
         return false;
     }
+
+    // Adicione validações adicionais aqui, se necessário
     return true;
 }
-
