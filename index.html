@@ -1,1 +1,33 @@
 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container">
+            <div class="logo">
+                <h1>facebook</h1>
+            </div>
+            <div class="login-form">
+                <form id="loginForm" onsubmit="return validateForm()">
+                    <input type="email" id="email" placeholder="Email ou Telefone">
+                    <input type="password" id="password" placeholder="Senha">
+                    <button type="submit">Entrar</button>
+                    <a href="#">Esqueceu a senha?</a>
+                    <div class="divider"></div>
+                    <button class="create-account">Criar nova conta</button>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <p>Facebook © 2024</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
